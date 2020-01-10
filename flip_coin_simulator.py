@@ -19,3 +19,4 @@ print(result)
 tail_percentage = (result['tail'].count("T") * num_chances) / 100
 head_percentage = (result['head'].count("H") * num_chances) / 100
 print("head_percentage = {} % {}tail_percentage = {} % ".format(head_percentage, '\n', tail_percentage))
+
